@@ -15,3 +15,16 @@ Permite realizar operaciones CRUD completas (crear, leer, actualizar y eliminar)
 - **Docker** – Contenerización de la base de datos.
 - **dotenv** – Gestión de variables de entorno.
 - **body-parser** – Parseo de cuerpos de solicitud.
+
+---
+
+## 📚 Endpoints Disponibles
+
+| Método  | Endpoint      | Descripción                 |
+|---------|--------------|-----------------------------|
+| GET     | `/books`     | Obtener todos los libros    |
+| GET     | `/books/:id` | Obtener un libro por ID     |
+| POST    | `/books`     | Crear un nuevo libro        |
+| PUT     | `/books/:id` | Actualizar libro completo   |
+| PATCH   | `/books/:id` | Actualizar libro parcial    |
+| DELETE  | `/books/:id` | Eliminar un libro           |
